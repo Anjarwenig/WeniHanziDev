@@ -11,7 +11,11 @@
       padding: 30px;
       background-color: #f4f4f4;
     }
-
+    select, button {
+      margin: 5px;
+      padding: 10px;
+      font-size: 16px;
+    }
     .flashcard {
       background: white;
       border-radius: 10px;
@@ -20,92 +24,77 @@
       width: 300px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-
-    button {
-      margin: 8px;
-      padding: 10px 15px;
-      border: none;
-      border-radius: 5px;
+    .toggle {
       cursor: pointer;
-      background-color: #3f51b5;
-      color: white;
-      font-size: 15px;
-    }
-
-    button:hover {
-      background-color: #2c3e91;
-    }
-
-    .chapter {
-      margin-bottom: 10px;
-      font-weight: bold;
+      color: #3f51b5;
     }
   </style>
 </head>
 <body>
-
   <h1>🀄 WeniHanzi Flashcards</h1>
 
+  <label for="chapter-select">Choose a Chapter:</label>
+  <select id="chapter-select"></select>
+
   <div class="flashcard" id="flashcard">
-    <div class="chapter" id="chapter">Chapter: </div>
     <h2 id="hanzi">Loading...</h2>
-    <p id="pinyin" style="display: none;"></p>
-    <p id="english" style="display: none;"></p>
+    <p id="pinyin" class="toggle" onclick="toggleVisibility('pinyin')" style="display: none;"></p>
+    <p id="english" class="toggle" onclick="toggleVisibility('english')" style="display: none;"></p>
     <div>
-      <button onclick="togglePinyin()">Pinyin</button>
-      <button onclick="toggleEnglish()">English</button>
-      <button onclick="prevCard()">⬅️ Back</button>
-      <button onclick="nextCard()">➡️ Next</button>
+      <button onclick="toggleVisibility('pinyin')">Pinyin</button>
+      <button onclick="toggleVisibility('english')">English</button>
+      <button onclick="nextCard()">Next</button>
     </div>
   </div>
 
   <script>
+    let allCards = {};
     let cards = [];
     let current = 0;
-    let pinyinVisible = false;
-    let englishVisible = false;
 
     fetch("/cards")
       .then(res => res.json())
       .then(data => {
-        cards = data;
-        showCard();
+        allCards = data;
+        populateChapters(Object.keys(allCards));
       });
+
+    function populateChapters(chapters) {
+      const select = document.getElementById("chapter-select");
+      chapters.forEach(ch => {
+        const opt = document.createElement("option");
+        opt.value = ch;
+        opt.textContent = ch;
+        select.appendChild(opt);
+      });
+      select.onchange = () => loadChapter(select.value);
+      loadChapter(chapters[0]);
+    }
+
+    function loadChapter(chapter) {
+      cards = allCards[chapter];
+      current = 0;
+      showCard();
+    }
 
     function showCard() {
       const card = cards[current];
       document.getElementById("hanzi").textContent = card.Hanzi;
       document.getElementById("pinyin").textContent = "Pinyin: " + card.Pinyin;
       document.getElementById("english").textContent = "English: " + card.English;
-      document.getElementById("chapter").textContent = "Chapter: " + card.Chapter;
-      document.getElementById("pinyin").style.display = pinyinVisible ? "block" : "none";
-      document.getElementById("english").style.display = englishVisible ? "block" : "none";
+      document.getElementById("pinyin").style.display = "none";
+      document.getElementById("english").style.display = "none";
     }
 
-    function togglePinyin() {
-      pinyinVisible = !pinyinVisible;
-      showCard();
-    }
-
-    function toggleEnglish() {
-      englishVisible = !englishVisible;
-      showCard();
+    function toggleVisibility(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === "none" ? "block" : "none";
     }
 
     function nextCard() {
       current = (current + 1) % cards.length;
-      pinyinVisible = false;
-      englishVisible = false;
-      showCard();
-    }
-
-    function prevCard() {
-      current = (current - 1 + cards.length) % cards.length;
-      pinyinVisible = false;
-      englishVisible = false;
       showCard();
     }
   </script>
-
 </body>
 </html>
