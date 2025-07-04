@@ -1,0 +1,722 @@
+[
+  {
+    "Hanzi": "爸爸",
+    "Pinyin": "bàba",
+    "English": "Dad",
+    "Chapter": "FAMILY & PEOPLE"
+  },
+  {
+    "Hanzi": "妈妈",
+    "Pinyin": "māma",
+    "English": "Mom",
+    "Chapter": "FAMILY & PEOPLE"
+  },
+  {
+    "Hanzi": "哥哥",
+    "Pinyin": "gēge",
+    "English": "Older brother",
+    "Chapter": "FAMILY & PEOPLE"
+  },
+  {
+    "Hanzi": "弟弟",
+    "Pinyin": "dìdi",
+    "English": "Younger brother",
+    "Chapter": "FAMILY & PEOPLE"
+  },
+  {
+    "Hanzi": "姐姐",
+    "Pinyin": "jiějie",
+    "English": "Older sister",
+    "Chapter": "FAMILY & PEOPLE"
+  },
+  {
+    "Hanzi": "妹妹",
+    "Pinyin": "mèimei",
+    "English": "Younger sister",
+    "Chapter": "FAMILY & PEOPLE"
+  },
+  {
+    "Hanzi": "朋友",
+    "Pinyin": "péngyou",
+    "English": "Friend",
+    "Chapter": "FAMILY & PEOPLE"
+  },
+  {
+    "Hanzi": "男人",
+    "Pinyin": "nánrén",
+    "English": "Man",
+    "Chapter": "FAMILY & PEOPLE"
+  },
+  {
+    "Hanzi": "女人",
+    "Pinyin": "nǚrén",
+    "English": "Woman",
+    "Chapter": "FAMILY & PEOPLE"
+  },
+  {
+    "Hanzi": "孩子",
+    "Pinyin": "háizi",
+    "English": "Child",
+    "Chapter": "FAMILY & PEOPLE"
+  },
+  {
+    "Hanzi": "白色",
+    "Pinyin": "báisè",
+    "English": "White",
+    "Chapter": "COLORS"
+  },
+  {
+    "Hanzi": "黑色",
+    "Pinyin": "hēisè",
+    "English": "Black",
+    "Chapter": "COLORS"
+  },
+  {
+    "Hanzi": "红色",
+    "Pinyin": "hóngsè",
+    "English": "Red",
+    "Chapter": "COLORS"
+  },
+  {
+    "Hanzi": "黄色",
+    "Pinyin": "huángsè",
+    "English": "Yellow",
+    "Chapter": "COLORS"
+  },
+  {
+    "Hanzi": "蓝色",
+    "Pinyin": "lánsè",
+    "English": "Blue",
+    "Chapter": "COLORS"
+  },
+  {
+    "Hanzi": "绿色",
+    "Pinyin": "lǜsè",
+    "English": "Green",
+    "Chapter": "COLORS"
+  },
+  {
+    "Hanzi": "粉红色",
+    "Pinyin": "fěnhóngsè",
+    "English": "Pink",
+    "Chapter": "COLORS"
+  },
+  {
+    "Hanzi": "紫色",
+    "Pinyin": "zǐsè",
+    "English": "Purple",
+    "Chapter": "COLORS"
+  },
+  {
+    "Hanzi": "咖啡色",
+    "Pinyin": "kāfēisè",
+    "English": "Brown",
+    "Chapter": "COLORS"
+  },
+  {
+    "Hanzi": "星期一",
+    "Pinyin": "xīngqī yī",
+    "English": "Monday",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "星期二",
+    "Pinyin": "xīngqī èr",
+    "English": "Tuesday",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "星期三",
+    "Pinyin": "xīngqī sān",
+    "English": "Wednesday",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "星期四",
+    "Pinyin": "xīngqī sì",
+    "English": "Thursday",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "星期五",
+    "Pinyin": "xīngqī wǔ",
+    "English": "Friday",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "星期六",
+    "Pinyin": "xīngqī liù",
+    "English": "Saturday",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "一月",
+    "Pinyin": "yī yuè",
+    "English": "January",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "二月",
+    "Pinyin": "èr yuè",
+    "English": "February",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "三月",
+    "Pinyin": "sān yuè",
+    "English": "March",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "四月",
+    "Pinyin": "sì yuè",
+    "English": "April",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "五月",
+    "Pinyin": "wǔ yuè",
+    "English": "May",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "六月",
+    "Pinyin": "liù yuè",
+    "English": "June",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "七月",
+    "Pinyin": "qī yuè",
+    "English": "July",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "八月",
+    "Pinyin": "bā yuè",
+    "English": "August",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "九月",
+    "Pinyin": "jiǔ yuè",
+    "English": "September",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "十月",
+    "Pinyin": "shí yuè",
+    "English": "October",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "十一月",
+    "Pinyin": "shíyī yuè",
+    "English": "November",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "十二月",
+    "Pinyin": "shí'èr yuè",
+    "English": "December",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "今天",
+    "Pinyin": "jīntiān",
+    "English": "Today",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "明天",
+    "Pinyin": "míngtiān",
+    "English": "Tomorrow",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "昨天",
+    "Pinyin": "zuótiān",
+    "English": "Yesterday",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "前天",
+    "Pinyin": "qiántiān",
+    "English": "Day before yesterday",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "后天",
+    "Pinyin": "hòutiān",
+    "English": "Day after tomorrow",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "今年",
+    "Pinyin": "jīnnián",
+    "English": "This year",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "明年",
+    "Pinyin": "míngnián",
+    "English": "Next year",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "去年",
+    "Pinyin": "qùnián",
+    "English": "Last year",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "现在",
+    "Pinyin": "xiànzài",
+    "English": "Now",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "小时",
+    "Pinyin": "xiǎoshí",
+    "English": "Hour",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "分钟",
+    "Pinyin": "fēnzhōng",
+    "English": "Minute",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "秒",
+    "Pinyin": "miǎo",
+    "English": "Second",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "早上",
+    "Pinyin": "zǎoshang",
+    "English": "Early morning (5–8 am)",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "上午",
+    "Pinyin": "shàngwǔ",
+    "English": "Morning (9–10 am)",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "中午",
+    "Pinyin": "zhōngwǔ",
+    "English": "Noon (11 am–2 pm)",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "下午",
+    "Pinyin": "xiàwǔ",
+    "English": "Afternoon (3–4 pm)",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "晚上",
+    "Pinyin": "wǎnshàng",
+    "English": "Evening (5–11 pm)",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "半夜",
+    "Pinyin": "bànyè",
+    "English": "Midnight (12–2 am)",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "凌晨",
+    "Pinyin": "língchén",
+    "English": "Early dawn (3–4 am)",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "点",
+    "Pinyin": "diǎn",
+    "English": "O’clock",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "分",
+    "Pinyin": "fēn",
+    "English": "Minutes",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "刻",
+    "Pinyin": "kè",
+    "English": "Quarter hour",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "半",
+    "Pinyin": "bàn",
+    "English": "Half hour",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "差",
+    "Pinyin": "chà",
+    "English": "To (e.g. 差五分八点 – five to eight)",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "八点一刻",
+    "Pinyin": "bā diǎn yí kè",
+    "English": "8:15",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "八点半",
+    "Pinyin": "bā diǎn bàn",
+    "English": "8:30",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "差五分九点",
+    "Pinyin": "chà wǔ fēn jiǔ diǎn",
+    "English": "8:55",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "我爸爸八点在饭馆吃饭",
+    "Pinyin": "Wǒ bàba bā diǎn zài fànguǎn chīfàn",
+    "English": "My dad eats at the restaurant at 8 o’clock.",
+    "Chapter": "TIME & DATE (Expanded)"
+  },
+  {
+    "Hanzi": "吃饭",
+    "Pinyin": "chīfàn",
+    "English": "Eat",
+    "Chapter": "DAILY ACTIVITIES"
+  },
+  {
+    "Hanzi": "喝水",
+    "Pinyin": "hē shuǐ",
+    "English": "Drink water",
+    "Chapter": "DAILY ACTIVITIES"
+  },
+  {
+    "Hanzi": "睡觉",
+    "Pinyin": "shuìjiào",
+    "English": "Sleep",
+    "Chapter": "DAILY ACTIVITIES"
+  },
+  {
+    "Hanzi": "上课",
+    "Pinyin": "shàngkè",
+    "English": "Attend class",
+    "Chapter": "DAILY ACTIVITIES"
+  },
+  {
+    "Hanzi": "下课",
+    "Pinyin": "xiàkè",
+    "English": "Finish class",
+    "Chapter": "DAILY ACTIVITIES"
+  },
+  {
+    "Hanzi": "上班",
+    "Pinyin": "shàngbān",
+    "English": "Go to work",
+    "Chapter": "DAILY ACTIVITIES"
+  },
+  {
+    "Hanzi": "下班",
+    "Pinyin": "xiàbān",
+    "English": "Finish work",
+    "Chapter": "DAILY ACTIVITIES"
+  },
+  {
+    "Hanzi": "学习",
+    "Pinyin": "xuéxí",
+    "English": "Study",
+    "Chapter": "DAILY ACTIVITIES"
+  },
+  {
+    "Hanzi": "写",
+    "Pinyin": "xiě",
+    "English": "Write",
+    "Chapter": "DAILY ACTIVITIES"
+  },
+  {
+    "Hanzi": "看书",
+    "Pinyin": "kànshū",
+    "English": "Read",
+    "Chapter": "DAILY ACTIVITIES"
+  },
+  {
+    "Hanzi": "家",
+    "Pinyin": "jiā",
+    "English": "Home",
+    "Chapter": "PLACES"
+  },
+  {
+    "Hanzi": "学校",
+    "Pinyin": "xuéxiào",
+    "English": "School",
+    "Chapter": "PLACES"
+  },
+  {
+    "Hanzi": "图书馆",
+    "Pinyin": "túshūguǎn",
+    "English": "Library",
+    "Chapter": "PLACES"
+  },
+  {
+    "Hanzi": "商店",
+    "Pinyin": "shāngdiàn",
+    "English": "Store",
+    "Chapter": "PLACES"
+  },
+  {
+    "Hanzi": "医院",
+    "Pinyin": "yīyuàn",
+    "English": "Hospital",
+    "Chapter": "PLACES"
+  },
+  {
+    "Hanzi": "饭馆",
+    "Pinyin": "fànguǎn",
+    "English": "Restaurant",
+    "Chapter": "PLACES"
+  },
+  {
+    "Hanzi": "公园",
+    "Pinyin": "gōngyuán",
+    "English": "Park",
+    "Chapter": "PLACES"
+  },
+  {
+    "Hanzi": "超市",
+    "Pinyin": "chāoshì",
+    "English": "Supermarket",
+    "Chapter": "PLACES"
+  },
+  {
+    "Hanzi": "不好意思",
+    "Pinyin": "bùhǎo yìsi",
+    "English": "Excuse me / Sorry",
+    "Chapter": "USEFUL EXPRESSIONS"
+  },
+  {
+    "Hanzi": "不对",
+    "Pinyin": "bú duì",
+    "English": "Incorrect",
+    "Chapter": "USEFUL EXPRESSIONS"
+  },
+  {
+    "Hanzi": "不是",
+    "Pinyin": "bú shì",
+    "English": "Not be",
+    "Chapter": "USEFUL EXPRESSIONS"
+  },
+  {
+    "Hanzi": "不客气",
+    "Pinyin": "búkèqi",
+    "English": "You're welcome",
+    "Chapter": "USEFUL EXPRESSIONS"
+  },
+  {
+    "Hanzi": "对不起",
+    "Pinyin": "duìbuqǐ",
+    "English": "Sorry",
+    "Chapter": "USEFUL EXPRESSIONS"
+  },
+  {
+    "Hanzi": "没关系",
+    "Pinyin": "méi guānxi",
+    "English": "No problem",
+    "Chapter": "USEFUL EXPRESSIONS"
+  },
+  {
+    "Hanzi": "谢谢",
+    "Pinyin": "xièxie",
+    "English": "Thank you",
+    "Chapter": "USEFUL EXPRESSIONS"
+  },
+  {
+    "Hanzi": "谢谢您",
+    "Pinyin": "xièxie nín",
+    "English": "Thank you (formal)",
+    "Chapter": "USEFUL EXPRESSIONS"
+  },
+  {
+    "Hanzi": "您好",
+    "Pinyin": "nínhǎo",
+    "English": "Hello (formal)",
+    "Chapter": "USEFUL EXPRESSIONS"
+  },
+  {
+    "Hanzi": "我是学生",
+    "Pinyin": "Wǒ shì xuésheng",
+    "English": "I’m a student",
+    "Chapter": "USEFUL EXPRESSIONS"
+  },
+  {
+    "Hanzi": "我的朋友",
+    "Pinyin": "wǒde péngyou",
+    "English": "My friend",
+    "Chapter": "USEFUL EXPRESSIONS"
+  },
+  {
+    "Hanzi": "一",
+    "Pinyin": "yī",
+    "English": "One",
+    "Chapter": "NUMBERS"
+  },
+  {
+    "Hanzi": "二",
+    "Pinyin": "èr",
+    "English": "Two",
+    "Chapter": "NUMBERS"
+  },
+  {
+    "Hanzi": "三",
+    "Pinyin": "sān",
+    "English": "Three",
+    "Chapter": "NUMBERS"
+  },
+  {
+    "Hanzi": "四",
+    "Pinyin": "sì",
+    "English": "Four",
+    "Chapter": "NUMBERS"
+  },
+  {
+    "Hanzi": "五",
+    "Pinyin": "wǔ",
+    "English": "Five",
+    "Chapter": "NUMBERS"
+  },
+  {
+    "Hanzi": "六",
+    "Pinyin": "liù",
+    "English": "Six",
+    "Chapter": "NUMBERS"
+  },
+  {
+    "Hanzi": "七",
+    "Pinyin": "qī",
+    "English": "Seven",
+    "Chapter": "NUMBERS"
+  },
+  {
+    "Hanzi": "八",
+    "Pinyin": "bā",
+    "English": "Eight",
+    "Chapter": "NUMBERS"
+  },
+  {
+    "Hanzi": "九",
+    "Pinyin": "jiǔ",
+    "English": "Nine",
+    "Chapter": "NUMBERS"
+  },
+  {
+    "Hanzi": "十",
+    "Pinyin": "shí",
+    "English": "Ten",
+    "Chapter": "NUMBERS"
+  },
+  {
+    "Hanzi": "两",
+    "Pinyin": "liǎng",
+    "English": "Two (with measure word)",
+    "Chapter": "NUMBERS"
+  },
+  {
+    "Hanzi": "几",
+    "Pinyin": "jǐ",
+    "English": "How many (small amount)",
+    "Chapter": "NUMBERS"
+  },
+  {
+    "Hanzi": "中国人",
+    "Pinyin": "zhōngguó rén",
+    "English": "Chinese",
+    "Chapter": "COUNTRIES & NATIONALITIES"
+  },
+  {
+    "Hanzi": "美国人",
+    "Pinyin": "měiguó rén",
+    "English": "American",
+    "Chapter": "COUNTRIES & NATIONALITIES"
+  },
+  {
+    "Hanzi": "法国人",
+    "Pinyin": "fǎguó rén",
+    "English": "French",
+    "Chapter": "COUNTRIES & NATIONALITIES"
+  },
+  {
+    "Hanzi": "是",
+    "Pinyin": "shì",
+    "English": "to be",
+    "Chapter": "GRAMMAR PARTICLES"
+  },
+  {
+    "Hanzi": "有",
+    "Pinyin": "yǒu",
+    "English": "to have",
+    "Chapter": "GRAMMAR PARTICLES"
+  },
+  {
+    "Hanzi": "没有",
+    "Pinyin": "méiyǒu",
+    "English": "to not have",
+    "Chapter": "GRAMMAR PARTICLES"
+  },
+  {
+    "Hanzi": "的",
+    "Pinyin": "de",
+    "English": "possessive particle",
+    "Chapter": "GRAMMAR PARTICLES"
+  },
+  {
+    "Hanzi": "吗",
+    "Pinyin": "ma",
+    "English": "yes-no question particle",
+    "Chapter": "GRAMMAR PARTICLES"
+  },
+  {
+    "Hanzi": "谁",
+    "Pinyin": "shéi",
+    "English": "Who",
+    "Chapter": "QUESTION WORDS"
+  },
+  {
+    "Hanzi": "什么",
+    "Pinyin": "shénme",
+    "English": "What",
+    "Chapter": "QUESTION WORDS"
+  },
+  {
+    "Hanzi": "什么时候",
+    "Pinyin": "shénme shíhou",
+    "English": "When",
+    "Chapter": "QUESTION WORDS"
+  },
+  {
+    "Hanzi": "为什么",
+    "Pinyin": "wèishénme",
+    "English": "Why",
+    "Chapter": "QUESTION WORDS"
+  },
+  {
+    "Hanzi": "怎么",
+    "Pinyin": "zěnme",
+    "English": "How",
+    "Chapter": "QUESTION WORDS"
+  },
+  {
+    "Hanzi": "多少",
+    "Pinyin": "duōshǎo",
+    "English": "How much/many",
+    "Chapter": "QUESTION WORDS"
+  }
+]
